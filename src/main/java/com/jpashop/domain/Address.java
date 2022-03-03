@@ -1,9 +1,13 @@
 package com.jpashop.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Embeddable;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Embeddable
 @Getter
 public class Address {
