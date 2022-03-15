@@ -2,6 +2,9 @@ package com.jpashop.repository.order.query;
 
 import lombok.Data;
 
+import java.util.List;
+import java.util.stream.Collector;
+
 @Data
 public class OrderItemQueryDto {
     private Long orderId;
